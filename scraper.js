@@ -1,11 +1,11 @@
 const puppeteer = require('puppeteer')
 
 async function sendMessage(){
-    const browser = await puppeteer.launch({headless: false, userDataDir: './user_data'})
+    const browser = await puppeteer.launch({headless: true, userDataDir: './user_data'})
 
     const page = await browser.newPage()
 
-    const url = "https://discord.com/channels/1304500194561232976/1304500195051962474"
+    const url = "https://discord.com/channels/1035306790222561414/1175574392072310835"
 
     await page.goto(url, {waitUntil: 'load'})
 

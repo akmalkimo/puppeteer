@@ -1,3 +1,3 @@
-2025/07/09-00:54:36.870 448a Reusing MANIFEST /home/kimo/Desktop/coding/botProject/backend/user_data/Default/shared_proto_db/metadata/MANIFEST-000001
-2025/07/09-00:54:36.871 448a Recovering log #3
-2025/07/09-00:54:36.871 448a Reusing old log /home/kimo/Desktop/coding/botProject/backend/user_data/Default/shared_proto_db/metadata/000003.log 
+2025/07/09-01:33:51.840 8460 Reusing MANIFEST /home/kimo/Desktop/coding/botProject/backend/user_data/Default/shared_proto_db/metadata/MANIFEST-000001
+2025/07/09-01:33:51.844 8460 Recovering log #3
+2025/07/09-01:33:51.845 8460 Reusing old log /home/kimo/Desktop/coding/botProject/backend/user_data/Default/shared_proto_db/metadata/000003.log 

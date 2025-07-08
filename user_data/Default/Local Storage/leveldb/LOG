@@ -1,6 +1,21 @@
-2025/07/09-00:54:36.350 4 Reusing MANIFEST /home/kimo/Desktop/coding/botProject/backend/user_data/Default/Local Storage/leveldb/MANIFEST-000001
-2025/07/09-00:54:36.363 4 Recovering log #110
-2025/07/09-00:54:36.366 4 Reusing old log /home/kimo/Desktop/coding/botProject/backend/user_data/Default/Local Storage/leveldb/000110.log 
-2025/07/09-00:56:37.597 6 Level-0 table #114: started
-2025/07/09-00:56:37.719 6 Level-0 table #114: 57689 bytes OK
-2025/07/09-00:56:37.765 6 Delete type=0 #110
+2025/07/09-01:33:51.165 4 Reusing MANIFEST /home/kimo/Desktop/coding/botProject/backend/user_data/Default/Local Storage/leveldb/MANIFEST-000001
+2025/07/09-01:33:51.182 4 Recovering log #113
+2025/07/09-01:33:51.183 4 Reusing old log /home/kimo/Desktop/coding/botProject/backend/user_data/Default/Local Storage/leveldb/000113.log 
+2025/07/09-01:41:30.151 6 Level-0 table #117: started
+2025/07/09-01:41:30.234 6 Level-0 table #117: 24366 bytes OK
+2025/07/09-01:41:30.279 6 Delete type=0 #113
+2025/07/09-01:41:38.138 6 Level-0 table #119: started
+2025/07/09-01:41:38.214 6 Level-0 table #119: 57109 bytes OK
+2025/07/09-01:41:38.301 6 Delete type=0 #116
+2025/07/09-01:41:38.302 6 Compacting 4@0 + 1@1 files
+2025/07/09-01:41:38.381 6 Generated table #120@0: 106 keys, 74651 bytes
+2025/07/09-01:41:38.382 6 Compacted 4@0 + 1@1 files => 74651 bytes
+2025/07/09-01:41:38.429 6 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/07/09-01:41:38.433 6 Delete type=2 #119
+2025/07/09-01:41:38.434 6 Delete type=2 #114
+2025/07/09-01:41:38.434 6 Delete type=2 #117
+2025/07/09-01:41:38.434 6 Delete type=2 #111
+2025/07/09-01:41:38.435 6 Delete type=2 #108
+2025/07/09-01:41:54.576 6 Level-0 table #122: started
+2025/07/09-01:41:54.677 6 Level-0 table #122: 52405 bytes OK
+2025/07/09-01:41:54.926 6 Delete type=0 #118
