@@ -1,20 +1,27 @@
+name: Run Puppeteer Every 6 Hours
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # every 6 hours UTC
+  workflow_dispatch:        # allows manual run
+
 jobs:
   run-puppeteer:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.19.0'
+          node-version: '20.19.0'  # required for puppeteer 24+
 
       - name: Install dependencies
         run: npm install
 
-      - name: Install Chromium
+      - name: Install Chromium for Puppeteer
         run: npx puppeteer browsers install chrome
 
       - name: Run Puppeteer script
