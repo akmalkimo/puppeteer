@@ -1,7 +1,11 @@
 const puppeteer = require('puppeteer')
 
 async function sendMessage(){
-    const browser = await puppeteer.launch({headless: true, userDataDir: './user_data'})
+    const browser = await puppeteer.launch({
+        headless: true,
+        userDataDir: './user_data',
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
 
     const page = await browser.newPage()
 
